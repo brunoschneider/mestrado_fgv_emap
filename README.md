@@ -1,7 +1,7 @@
 mestrado_fgv_emap
 =================
 
-Scripts de aplicação desenvolvida durante o Mestrado em Modelagem Matemática da Informação na Escola de Matemática Aplicada (EMAP) da FGV-RJ.
+Scripts de aplicação desenvolvida como parte da dissertação de Mestrado em Modelagem Matemática da Informação na Escola de Matemática Aplicada (EMAP) da FGV-RJ.
 
 Autor: Bruno Schneider
 
