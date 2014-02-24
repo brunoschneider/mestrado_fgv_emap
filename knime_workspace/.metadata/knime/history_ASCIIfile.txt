@@ -1,0 +1,1 @@
+file:/home/bruno/knime_workspace/data/matriz_dist_sym.csv

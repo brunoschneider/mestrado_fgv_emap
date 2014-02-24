@@ -1,0 +1,2 @@
+/home/bruno/knime_workspace/data
+/home/bruno/Dropbox/emap/iri/trabalho_01/indexdir

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Streamgraph</title>
+        <style>
+        body {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          margin: auto;
+          width: 960px;
+        }
+        svg{
+            margin: 1em auto;
+            padding: 2em 0;
+            border: 1px #ccc solid;
+        }
+        </style>
+        <script src="d3.v3.min.js"></script>
+    </head>
+    <body>
+        <script>
+        var stack = d3.layout.stack().offset("silhouette");
+
+        d3.text('/array.csv', function(text){
+            var rows = d3.transpose(d3.csv.parseRows(text)).map(function(row){
+                return row.map(function(el, i){
+                    return {x: i, y: parseFloat(el)};
+                });
+            });
+            layers = stack(rows);
+
+            var width = 960,
+                height = 500;
+
+            var x = d3.scale.linear()
+                .domain([0, layers[0].length - 1])
+                .range([0, width]);
+
+            var y = d3.scale.linear()
+                .domain([0, d3.max(layers, function(layer) { return d3.max(layer, function(d) { return d.y0 + d.y; }); })])
+                .range([height, 0]);
+
+            var color = d3.scale.ordinal()
+                .range(['#A6CEE3', '#1F78B4', '#B2DF8A', '#33A02C', '#FB9A99', '#E31A1C', '#FDBF6F', '#FF7F00', '#CAB2D6', '#6A3D9A', '#FFFF99', '#B15928']);
+
+            var area = d3.svg.area()
+                .interpolate("basis")
+                .x(function(d) { return x(d.x); })
+                .y0(function(d) { return y(d.y0); })
+                .y1(function(d) { return y(d.y0 + d.y); });
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            svg.selectAll("path")
+                .data(layers)
+              .enter().append("path")
+                .attr("d", area)
+                .style("fill", function() { return color(Math.random()); });
+
+        });
+        </script>
+    </body>
+</html>

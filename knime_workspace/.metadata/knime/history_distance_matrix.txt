@@ -1,0 +1,8 @@
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/dataset/dist_matrix_slice30docs_reuters_50topics_200passes_porter.csv
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/dataset/dist_matrix_reuters_50topics_200passes_porter.csv
+/home/bruno/Documentos/nytimes/dist_matrix_nytimes_300k_50topics.csv
+/home/bruno/Documentos/nytimes/dist_matrix_nytimes_slice10k_50topics.csv
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/knime_workspace/data/dist_matrix_nytimes_100k_50topics.csv
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/knime_workspace/data/matriz_dist_sym_minislice_reuters_50topics_200passes_porter.csv
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/knime_workspace/data/matriz_dist_sym_reuters_50topics_200passes_porter.csv
+/home/bruno/Dropbox/emap/dissertacao/scripts/dissertacao_final/knime_workspace/data/matriz_dist_sym_nysk.csv

@@ -1,0 +1,1 @@
+/home/bruno/knime_workspace/data/test.csv

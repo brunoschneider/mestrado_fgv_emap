@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favoritenodes>
+<personals/>
+<frequents>
+<favorite frequency="2" nodeid="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.io.filereader.FileReaderNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.frequencies.filter.FilterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.source.parser.flatfile.FlatFileDocumentParserNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.view.documentviewer.DocumentViewerNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.base.node.io.linereader.LineReaderNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.preprocessing.stopwordfilter.StopwordFilterNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.tagging.pos.PosTaggerNodeFactory"/>
+<favorite frequency="1" nodeid="org.knime.ext.textprocessing.nodes.view.tagcloud.outport.TagCloudNodeFactory"/>
+</frequents>
+<lastused>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.view.documentviewer.DocumentViewerNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.view.tagcloud.outport.TagCloudNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.preprocessing.stopwordfilter.StopwordFilterNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.frequencies.filter.FilterNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.tagging.pos.PosTaggerNodeFactory"/>
+<favorite nodeid="org.knime.ext.textprocessing.nodes.source.parser.flatfile.FlatFileDocumentParserNodeFactory"/>
+<favorite nodeid="org.knime.base.node.io.linereader.LineReaderNodeFactory"/>
+<favorite nodeid="org.knime.base.node.io.filereader.FileReaderNodeFactory"/>
+</lastused>
+</favoritenodes>
